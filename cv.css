@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding: 0 ;
+}
+body {
+   background-color: rgba(233, 255, 254, 0.952);
+     }
+
+
+.container {
+            
+           max-width: 1000px;
+           background-color: antiquewhite;
+          margin: 0 auto;
+
+           }
+  .img {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    padding: 2px;
+    float: left;
+  }
+
+  .header-bio{
+    padding:30px;
+    float:left;
+    
+  }
+  h1,h2,h3,h4,h5{
+    color: #119991;
+  } 
+
+  .contact{
+    float:right;
+    padding: 20px;
+    
+    font-weight: bold;
+  }
+   .contact a{
+    text-decoration: none;
+    color:#119991;
+
+   }
+   .contact a:hover{
+    
+    background-color:white;
+   
+
+   }
+   .div-clear{
+    clear: both;
+   }
+
+   hr{
+    border: solid black 3px;
+    width:99%;
+    margin: 20px auto;
+    border-bottom: none;
+   }
+/*personal section start*/
+
+ #personal-section{
+
+
+}
+ .left-div{
+ width:30%;
+float:left;
+
+ }
+
+ .right-div{
+float:left;
+   width:70%;
+   text-align: justify;
+
+  
+ }
+
+ .common hr{
+ border:solid black 1px;
+width:100%;
+border-bottom: ;
+
+
+ }
+ /*......................
+ eudcation right div start
+ .......................*/
+
+ .edu-left-div{
+   float:left;
+   width:50%;
+ }
+
+.edu-right-div{
+  float:right;
+  width:45%;
+}
+ /*......................
+ footer 
+ .......................*/
+.bottom-footer{
+       background-color: black;
+       text-align: center;
+       padding:10px;
+}
+.bottom-footer a{  
+
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+}
+
+
+.bottom-footer p{
+
+  text-align: center;
+  padding:10px;
+  color:white;
+}
